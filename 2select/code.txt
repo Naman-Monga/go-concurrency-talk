@@ -1,0 +1,16 @@
+# select
+Loop:
+	for {
+		select {
+		case resp := <-response:
+			fmt.Println(resp)
+			break Loop
+		case <-time.After(timeout):
+			fmt.Println("timeout")
+			break Loop
+		}
+	}
+
+
+
+

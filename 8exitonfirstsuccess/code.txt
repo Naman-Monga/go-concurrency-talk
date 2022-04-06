@@ -1,0 +1,6 @@
+if p.Name == "dunzo" { // case : when a partner returns nil (error case)
+    return nil
+}
+
+
+return nil // case: when every partner fails/unserviceable

@@ -1,0 +1,5 @@
+buffered n unbuffered channels
+-> https://medium.com/a-journey-with-go/go-buffered-and-unbuffered-channels-29a107c00268
+
+pipelines
+-> https://go.dev/blog/pipelines
